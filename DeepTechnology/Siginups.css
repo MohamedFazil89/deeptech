@@ -1,0 +1,211 @@
+  
+form {
+  margin-left: 325px;
+  margin-top: 100px;
+  width: 800px;
+  height: 750px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+h1 {
+  font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 30px;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.pure-control-group {
+  font-size: 14px !important;
+  font-weight: normal !important;
+  font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.pure-controls {
+  font-size: 14px !important;
+  font-weight: normal !important;
+  font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  color: #333;
+}
+
+.button-primary {
+  margin-bottom: 15px;
+}
+
+H3 {
+  font-size: 12px !important;
+  font-weight: normal !important;
+  font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  color: #7d7f80;
+  margin-bottom: 50px;
+}
+
+#line {
+  border: 0;
+  height: 550px;
+  width: 1px;
+  margin-left: 850px;
+  margin-top: -700px;
+  background-color: #7d7f80;
+}
+
+#sidebar-rec {
+  background-color: #F1F1F1;
+  height: 550px;
+  width: 190px;
+  margin-left: 882px;
+  margin-top: -567px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-left: 23px;
+  color: #666;
+  padding-top: 20px;
+  font-weight: 100;
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  opacity: 0.9;
+}
+
+li {
+  background: none;
+  list-style-type: disc;
+  padding: 0 5px 5px 0;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #666;
+  font-weight: 200;
+  font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  opacity: 0.9;
+}
+
+#cb {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #d8d8d8;
+  color: white;
+  cursor: pointer;
+}
+
+.button-primary {
+  height: 34px;
+  width: 92px;
+  font-size: 11pt;
+  text-transform: uppercase;
+  background-color: rgb(69, 202, 230);
+  border: 0px;
+  color: white;
+  border-radius: 3px;
+}
+
+#log-in {
+  list-style-type: none;
+  width: 140px;
+  height: 18px;
+  padding: 0;
+  display: block;
+}
+
+.signup {
+  left: 970px;
+  top: 90px;
+  position: relative;
+  display: inline;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 11pt;
+}
+
+#i {
+  font-size: 12pt;
+  font-weight: lighter;
+}
+
+#foo,
+#email,
+#password,
+#name {
+  height: 28px;
+  width: 304px;
+  opacity: 0.4;
+  border-radius: px;
+}
+
+.form-inputs{
+position: relative;
+margin-left: 50px;
+}
+
+#logo {
+position: absolute;
+margin-top: 75px;
+margin-left: 330px;
+height: 34px;
+width: 90px;
+}
+
+a {
+color: #45cae6;
+text-decoration: none; 
+}
+
+label {
+color: gray;
+}
+
+#bottom {
+  right: 600px;
+  bottom: 60px;
+  position: relative;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-size: 11pt;
+  opacity: 0.7;
+}
+
+#verified {
+position: absolute;
+margin-top: 68px;
+margin-left: -130px;
+height: 58px;
+width: 140px;
+}
+
+#trustee {
+position: absolute;
+margin-top: 80px;
+margin-left: 15px;
+width: 110px;
+}
+
+#bottom2 {
+  right: 1100px;
+  top: 40px;
+  position: relative;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-size: 8pt;
+  opacity: 0.7;
+}
+
+.bottom3:hover {
+text-decoration: underline;
+color: gray;
+}
+
+.bottom3 {
+color: gray;
+}
+
+

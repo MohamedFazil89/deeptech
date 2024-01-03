@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'tech';
+    src: url('./ShareTechMono-Regular.ttf');
+}
+
+body {
+    background-image: url('./martin-wilner-J1ActGs9Qzg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    font-weight: bolder;
+    color: white;
+    background-image: -o-repeating-linear-gradient(.3);
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+}
+
+li {
+    margin-left: 3rem;
+    font-size: 1.6rem;
+    font-family: 'tech';
+
+
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    text-align: center;
+    width: 10%;
+    transition: all .5s;
+    font-size: 1rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.in:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px white;
+
+}
+
+.up:hover {
+    transform: scale(1.1);
+    background-color: rgb(68, 255, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    font-family: 'tech';
+
+}
+
+.start {
+    padding: 1rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: all .3s ease-in-out;
+    font-weight: bolder;
+    box-shadow: 0px 0px 52px #5a5a5a;
+    filter: blur(5);
+
+
+
+}
+.idea{
+    display: flex;
+    justify-content: space-between;
+    font-size: clamp(16px, 2vw, 24px);
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin: auto;
+}
+
+.start:hover {
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0px 52px #5a5a5a;
+    color: black;
+
+}
+.img1{
+    width: 40%;
+}
+
+.head{
+    font-size: clamp(40px, 10vw, 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    clip-path: inset(0);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: min(80%, 700px);
+    color: white;
+    position: relative;
+    z-index: 9;
+
+}
+
+.logo{
+    display: flex;
+
+}
+
+.logos{
+    width: 10%;
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="./signup.css">
+</head>
+
+<body>
+    <img src="./diego-ph-fIq0tET6llw-unsplash.jpg" alt="idea">
+    <div class="input" id="firstSection">
+        <h1>Signup</h1>
+        <input type="text" placeholder="Your full name" class="inputs name" required>
+        <input type="number" placeholder="Age" class="inputs age" required>
+        <input type="text" placeholder="Education" class="inputs study" required>
+        <input type="number" placeholder="Phone No" class="inputs number" required>
+        <input type="text" placeholder="Country" id="city" class="inputs Country" required>
+        <button class="next" onclick="showSecondSection()">Next</button>
+    </div>
+    <div class="input two" id="secondSection" style="display: none;">
+        <i onclick="backward();" class="fas fa-arrow-left"></i>
+        <input type="text" placeholder="UserID" id="user" class="inputs_" required>
+        <input type="text" placeholder="Email" id="mail" class="inputs_" required>
+        <input type="password" placeholder="Password" id="pass" class="inputs_" required>
+        <input type="text" placeholder="Confirm password" id="city" class="inputs_" required>
+
+        <button class="next_" type="submit" onclick="next('./dashboard.html');">Submit</button>
+    </div>
+
+    <script>
+        function showSecondSection() {
+            document.getElementById("firstSection").style.display = "none";
+            document.getElementById("secondSection").style.display = "block";
+        }
+        function backward() {
+            document.getElementById("firstSection").style.display = 'block';
+            document.getElementById("secondSection").style.display = "none";
+        }
+    </script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
